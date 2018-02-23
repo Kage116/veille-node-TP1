@@ -1,17 +1,17 @@
 "use strict";
 
 const tabNom = [
-	"Beauchesne",
 	"L'Heureux",
-	"Lemay",
-	"Paquette"
+	"",
+	"",
+	""
 ]
 
 const tabPrenom = [
-	"Antoine",
-	"Max",
-	"Audrey",
-	"Simon"
+	"Maxim",
+	"",
+	"",
+	""
 ]
 
 const tabTelephone = [
