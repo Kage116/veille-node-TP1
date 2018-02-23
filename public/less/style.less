@@ -1,13 +1,13 @@
 header {
 	padding: 2%;
-	background-color: #11AAFF;
-	color: #333333;
+	background-color: darkred;
+
 
 	nav a {
 		text-decoration: none;
 		font-size: 20px;
 		padding: 0 2% 0 0;
-		color: #333333;
+		color: black;
 	}
 
 	nav a:hover {
@@ -32,7 +32,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	margin: 0;
-	background-color: #333333;
+	background-color:#333333;
 
 	.mon_formulaire {
 		display: none;
@@ -48,20 +48,11 @@ body {
 	#formAjouter input {
 		width: 25%;
 		margin: 0 1%;
-		padding: 15px;
-		border: 3px solid #DCDCDC;
 	}
 
 	#formAjouter input:last-of-type {
-		width: 7%;
+		width: 5%;
 		cursor: pointer;
-		border: none;
-	}
-
-	#formAjouter input:last-of-type:active {
-		-webkit-box-shadow: inset 3px 3px 10px 0px rgba(0,0,0,0.5);
-		-moz-box-shadow: inset 3px 3px 10px 0px rgba(0,0,0,0.5);
-		box-shadow: inset 3px 3px 10px 0px rgba(0,0,0,0.5);
 	}
 
 	#formRechercher {
@@ -88,27 +79,25 @@ body {
 		}
 
 		th {
-			padding: 15px;
 			background-color: #333333;
 		}
 
 		th a {
 			text-decoration: none;
 			font-weight: 400;
-			color: #DCDCDC;
+			color: white;
 		}
 
 		th a:hover {
-			text-decoration: underline;
-			font-weight: 700;
+			font-weight: 500;
 		}
 
 		#idDelete a {
-			color: #FF0000;
+			color: red;
 		}
 
 		#idSave a {
-			color: #00FF00;
+			color: green;
 		}
 
 		tr {
@@ -133,34 +122,4 @@ footer {
 	display:flex;
 	justify-content: center;
 	margin: 0 2%;
-
-	ul {
-		width: 15%;
-		list-style-type: none;
-		margin: 5%;
-		padding: 0;
-		text-align: center;
 	}
-	 
-	li {
-		font-size: 20px;
-		font-weight: 400;
-		padding: 5%;
-		border-bottom: 1px solid #DCDCDC;
-		color: #DCDCDC;
-	}
-	 
-	li:last-child {
-		border: none;
-	}
-	 
-	li a {
-		text-decoration: none;
-		color: #DCDCDC;
-	}
-	 
-	li a:hover {
-		text-decoration: underline;
-		font-weight: 700;
-	}
-} 
