@@ -48,7 +48,7 @@ body #formAjouter input:last-of-type {
 body #formRechercher {
   display: flex;
   align-self: center;
-  width: 70%;
+  margin: 2%;
 }
 body table {
   font-family: arial, sans-serif;
@@ -82,7 +82,7 @@ body table #idDelete a {
   color: red;
 }
 body table #idSave a {
-  color: green;
+  color: lightgreen;
 }
 body table tr {
   background-color: #777777;
