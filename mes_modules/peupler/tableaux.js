@@ -4,7 +4,7 @@ const tabNom = [
 	"L'Heureux",
 	"Vallée",
 	"Tremblay",
-	""
+	"Beetz"
 ]
 
 const tabPrenom = [
