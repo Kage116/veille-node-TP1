@@ -90,3 +90,14 @@ app.get('/peupler',function(req,res) {
 	})
 })
 
+app.post('/recherche', (req, res) => {
+	console.log('allo');
+	let recherche = req.body.recherche;
+	console.log("recherche = " + recherche);
+	
+	db.collection('adresse').find({$or : [{nom:req.body.recherche},{prenom:req.body.recherche}]}).toArray(function(err, resultat) {
+		if (err) return console.log(err);
+	 	console.log('util = ' + util.inspect(resultat));
+		res.render('gabarit.ejs', {adresse: resultat});
+	})
+})
