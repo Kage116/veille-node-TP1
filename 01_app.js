@@ -102,8 +102,3 @@ app.post('/recherche', (req, res) => {
 	})
 })
 
-#formRechercher {
-		display: flex;
-		align-self: center;
-		width: 70%;
-	}
