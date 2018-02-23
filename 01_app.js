@@ -101,3 +101,9 @@ app.post('/recherche', (req, res) => {
 		res.render('gabarit.ejs', {adresse: resultat});
 	})
 })
+
+#formRechercher {
+		display: flex;
+		align-self: center;
+		width: 70%;
+	}
