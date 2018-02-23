@@ -24,7 +24,7 @@ const tabTelephone = [
 const tabCourriel = [
 	"email@gmail.com",
 	"email@videotron.ca",
-	"email@bell.ca",
+	"email@live.ca",
 	"email@yahoo.com",
 	"email@hotmail.com"
 ]
